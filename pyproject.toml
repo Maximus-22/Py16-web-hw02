@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "py16-web-hw02"
+version = "0.1.0"
+description = "AddressBook for Docker"
+authors = ["Maximus-22 <maksim.melnichenko@nservice.com.ua>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+colorama = "^0.4.6"
+prettytable = "^3.9.0"
+
+[tool.poetry.group.dev.dependencies]
+pygame = "^2.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
